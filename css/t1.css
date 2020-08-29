@@ -1,0 +1,225 @@
+/*
+body {
+  background-image: url(../images/back3.jpg);
+  background-attachment: fixed;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-: padding-box;
+  background-color: rgba(60, 247, 138, 0.486);
+  //width: 1000px;
+}
+*/
+
+/*---------------------*/
+div .name {
+  color: red;
+}
+
+.bc_f1,
+.bc_f2 {
+  text-align: center;
+  margin: auto;
+  width: 800px;
+  //margin-left: 8%;
+  position: fixed;
+  right: 100px;
+  opacity: 0.8;
+  z-index: -1;
+}
+/*---------------------*/
+
+h1 {
+  width: 400px;
+  background-color: rgb(218, 216, 216);
+  color: black;
+  text-align: center;
+  border: 2px solid darkgray;
+  border-width: 7px 15px;
+  border-style: double solid;
+  padding: 10px;
+  margin: auto;
+}
+h1:hover {
+  background-color: darkgray;
+  border-color: brown;
+  color: white;
+}
+
+P {
+  background-color: antiquewhite;
+  font-size: 17px;
+  text-indent: 20px;
+}
+
+.one,
+#two,
+.three {
+  /* Grouping Similar Properties*/
+  text-transform: uppercase;
+  text-decoration-style: wavy;
+  text-decoration-line: underline;
+}
+
+#two {
+  font-size: 30px;
+  font-weight: bold;
+  background-color: cyan;
+  width: 600px;
+}
+
+p.three {
+  color: blue;
+  width: 500px;
+}
+/* ___________________________________________________ */
+div {
+  background-color: rgba(241, 232, 193, 0.5);
+  width: 700px;
+  border: 1px solid black;
+  margin: 10px;
+  padding: 10px;
+  text-align: justify;
+  //display: inline-block;
+  //float: active;
+}
+
+.div_2 {
+  width: 600px;
+  background-image: url("../images/b5.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: top center;
+}
+
+.div_3 {
+  width: 600px;
+  background: url(../images/b.jpg) repeat scroll 0% 0% rgb(155, 175, 236);
+}
+
+/* ___________________________________________________ */
+div .div_4 {
+  /* Text Properties */
+  color: darkgoldenrod; //color
+  direction: normal;
+  letter-spacing: 3px;
+  line-height: 150%;
+}
+
+div.d_5 {
+  font-weight: bold;
+  font-size: 20px;
+  direction: ltr;
+  line-height: 40px;
+  text-align: left;
+  text-decoration: underline;
+  word-spacing: 2px;
+  //float: left;
+}
+
+div.d_6 {
+  text-indent: 15px;
+}
+
+span.s_1 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+/* ___________________________________________________ */
+div.d_7 {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+span.s_2 {
+  font: italic bolder 17px/16px sans-serif;
+}
+
+/* ___________________________________________________ */
+a {
+  color: blue;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+a:hover {
+  color: red;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+a:active {
+  color: greenyellow;
+  font-size: 16px;
+}
+
+/* ___________________________________________________ */
+.d_l ul {
+  list-style-type: disc;
+  list-style-image: url(../images/bd.png);
+  background-color: aquamarine;
+  border: 1px solid black;
+  width: 100px;
+  height: 150px;
+  //overflow: scroll;
+  overflow: auto;
+}
+/* ___________________________________________________ */
+.fixed {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: rgba(0, 217, 255, 0.5);
+  color: black;
+  font-weight: bold;
+  font-size: 25px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", Geneva, Verdana, sans-serif;
+  min-width: 100px;
+  min-height: 50px;
+}
+
+.fixed:hover {
+  background-color: rgba(245, 248, 248, 1);
+  color: green;
+}
+
+.red,
+.green,
+.blue {
+  all: initial;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+}
+.red {
+  top: 0px;
+  right: 0px;
+  background-color: red;
+}
+.green {
+  top: 20px;
+  right: 20px;
+  background-color: green;
+}
+.blue {
+  top: 40px;
+  right: 40px;
+  background-color: blue;
+  z-index: -1;
+}
+
+/* ___________________________________________________ */
+img {
+  border: 1px solid black;
+}
+img:hover {
+  border: 2px solid rgb(0, 255, 0);
+}
+
+img.bc_img1 {
+  width: 100px;
+}
+
+img.bc_img1:hover {
+  width: 200px;
+}
+
+/* ___________________________________________________ */

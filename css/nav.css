@@ -1,0 +1,20 @@
+.topnav {
+  /* fixing main header bar while scolling */
+
+  border-bottom: 1px solid black;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.box {
+  min-height: 1000px;
+  margin: 10px;
+  padding: 10px;
+  padding-top: 40px;
+  border: 1px solid black;
+}
+.box p {
+  max-width: 500px;
+  text-align: justify;
+}
